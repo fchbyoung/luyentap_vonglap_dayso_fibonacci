@@ -1,5 +1,6 @@
-    let a = 1; b = 0;
-    for(let temp = 0; temp < 20;temp ){
+    let a = 0; b = 1;
+    let temp;
+    for(let i = 0; i < 20; i++){
         temp = a;
         a += b;
         b = temp;
